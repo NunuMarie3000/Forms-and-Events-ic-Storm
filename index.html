@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <div id="login-form">
+        <!-- action is where the form will submit to, like url/home.html/etc.
+        method is how form will be submitted 
+        GET, POST
+            you're submitting post request when you create a social media account, PUT,
+                you wanna post a reddit post, that's PUT
+                 DELETE
+                    self explanatory
+        not just buttons, can be applied to a lot of things in html-->
+        <!-- if you don't put attributes in form, form submits to index.html -->
+        <form id="my-form">
+            <!-- labels tell us more info about the input -->
+            <label for="username">Username</label>
+            <!-- input, different input fields(email, text, password, etc.) -->
+            <!-- <input onfocus="focusOnMe()" type="text" name="username"> -->
+            <input id="username" type="text" name="username">
+            <br>
+            <label for="password">Password</label>
+            <input id='password' type="password" name="password">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <br>
+            <input type="submit" value="Click to Submit">
+
+        </form>
+
+
+
+
+
+
+    </div>
+    <!-- let's put a form here -->
+
+    <!-- Forms can be used for storing data, getting info from user, main point of interaction betdween user and web application -->
+    <script src="./app.js"></script>
+</body>
+</html>
